@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <li>
+        <a href=""><img class="logomenu" src="/logonew.png" alt="" /></a>
+      </li>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="">Μενού</a></li>
+          <li><a class="main-nav-link" href="">Ποίοι Είμαστε</a></li>
+          <li>
+            <a class="main-nav-link" href="">Delivery</a>
+          </li>
+          <li><a class="main-nav-link" href="">Κάντε κράτηση</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </div>
+
+    <section class="section-hero">
+      <div class="hero">
+        <div class="hero-text">
+          <h2 class="heading-h2">Φρέσκα πίατα στη Καλλιθέα</h2>
+
+          <p class="hero-description">
+            Η προσεγμένη ποιότητα στα τροφικά υλικά, τα ιδιαίτερα προσεγμένα
+            πιάτα, η πρόθυμη και γρήγορη εξυπηρέτηση, το όμορφο περιβάλλον, αλλά
+            και οι αληθινά προσιτές τιμές, είναι οι βασικοί λόγοι που κάνουν το
+            Κοράλλι να ξεχωρίζει από το 1995! Ο εξωτερικός χώρος στο Κοράλλι
+            είναι ένα καταπράσινο περιβάλλον και σας δίνει την δυνατότητα να
+            απολαμβάνετε τα εκλεκτά και νόστιμα φαγητά μας, τόσο το χειμώνα όσο
+            και το καλοκαίρι. Το Κοράλλι στη Καλλιθέα είναι εύκολα προσβάσιμο
+            για όλους, από όπου και αν έρχεστε και λειτουργεί καθημερινά από τις
+            12 το μεσημέρι, διαθέτοντας και άνετο parking.
+          </p>
+          <a href="#" class="btn btn--full margin-right-sm">Κάλεσέ μας</a>
+          <a href="#" class="btn btn--outline">Menu</a>
+        </div>
+
+        <div>
+          <img src="/hero-min.png" class="hero-img" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">Εγραψαν για έμας</h2>
+        <div class="logos">
+          <img src="/neakallithea_transparent.png" alt="neakallithea logo" />
+          <img src="/site_logo.png" alt="e-restaurants logo" />
+          <img src="/logo.png" alt="Best of logo" />
+        </div>
+      </div>
+    </section>
+    <section class="section-meals" id="meals">
+      <div class="container center-text">
+        <span class="subheading">Γεύματα</span>
+        <h2 class="heading-secondary">Τα πιάτα μας</h2>
+      </div>
+
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="/meal-1.jpg" class="meal-img" alt="Gyozas" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">Vegetarian</span>
+            </div>
+            <p class="meal-title">Gyozas</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon md hydrated"
+                  name="flame-outline"
+                  role="img"
+                  aria-label="flame outline"
+                ></ion-icon>
+                <span><strong>650</strong> calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon md hydrated"
+                  name="restaurant-outline"
+                  role="img"
+                  aria-label="restaurant outline"
+                ></ion-icon>
+                <span>NutriScore ® <strong>74</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon md hydrated"
+                  name="star-outline"
+                  role="img"
+                  aria-label="star outline"
+                ></ion-icon>
+                <span><strong>4.9</strong> rating (537)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal">
+          <img src="/meal-2.jpg" class="meal-img" alt="Avocado Salad" />
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegan">Vegan</span>
+              <span class="tag tag--paleo">Paleo</span>
+            </div>
+            <p class="meal-title">Avocado Salad</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon md hydrated"
+                  name="flame-outline"
+                  role="img"
+                  aria-label="flame outline"
+                ></ion-icon>
+                <span><strong>400</strong> calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon md hydrated"
+                  name="restaurant-outline"
+                  role="img"
+                  aria-label="restaurant outline"
+                ></ion-icon>
+                <span>NutriScore ® <strong>92</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon
+                  class="meal-icon md hydrated"
+                  name="star-outline"
+                  role="img"
+                  aria-label="star outline"
+                ></ion-icon>
+                <span><strong>4.8</strong> rating (441)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="diets">
+          <h3 class="heading-tertiary">Υποστηρίζουμε κάθε δίαιτα:</h3>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Vegetarian</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Vegan</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Pescatarian</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Gluten-free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Lactose-free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Keto</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Paleo</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Low FODMAP</span>
+            </li>
+            <li class="list-item">
+              <ion-icon
+                class="list-icon md hydrated"
+                name="checkmark-outline"
+                role="img"
+                aria-label="checkmark outline"
+              ></ion-icon>
+              <span>Kid-friendly</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container all-recipes">
+        <a href="#" class="link">Ολα τα πίατα →</a>
+      </div>
+    </section>
+    <section class="section-testimonials" id="testimonials">
+      <div class="testimonials-container">
+        <h2 class="heading-secondary">Μία φορά αρκεί</h2>
+
+        <div class="testimonials">
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Theodoros"
+              src="/customers/dave.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Πολύ προσεγμένα φαγητά, φρέσκα θαλασσινά , πολύ νόστιμο μύδι
+              σαχανακι και φανταστική γαριδομακαρονάδα , κανονικές τιμές πολύ
+              ευγενικό προσωπικό
+            </blockquote>
+            <p class="testimonial-name">— Θεόδωρος</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Nikos"
+              src="/customers/ben.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Φάγαμε ένα μεσημέρι καθημερινής μετά το μπάνιο. Ο, τι παραγγειλαμε
+              ήταν ολοφρεσκο, το χταπόδι στα κάρβουνα ήταν συγκλονιστικό, σαν να
+              είχε μόλις χτυπηθεί στα βράχια, η ψητή σαρδέλα σαν να είχε βγει
+              μόλις από τη θάλασσα και το σκουμπρί ήταν τόσο τέλεια καπνισμενο
+              και ψημένο
+            </blockquote>
+            <p class="testimonial-name">— Νίκος</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Konstantinos"
+              src="/customers/steve.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Καταπληκτικη τοποθεσια, πεντανοστιμα φαγητα εξαιρετικο σερβις..
+              Δοκιμαστε χρωματιστες ταλιατελες με σολωμο!!!!!! Το προτεινω
+              ανεπιφυλακτα!!Και υπεροχη παιδικη χαρα για τα παιδάκια μας..
+              Περασαμε υπέροχα.. Εις το επανιδειν!!!
+            </blockquote>
+            <p class="testimonial-name">— Κωνσταντίνος</p>
+          </figure>
+
+          <figure class="testimonial">
+            <img
+              class="testimonial-img"
+              alt="Photo of customer Eleni"
+              src="/customers/hannah.jpg"
+            />
+            <blockquote class="testimonial-text">
+              Τρομερός συνδυασμός πολύ καλού φαγητού και υπέροχης θέας !!! Η
+              εξυπηρέτηση είναι τέλεια και σίγουρα αξίζει να το επισκεφτείς!!!
+            </blockquote>
+            <p class="testimonial-name">— Ελένη</p>
+          </figure>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-1.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-2.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-3.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-4.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-5.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-6.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-7.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-8.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-9.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-10.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-11.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+        <figure class="gallery-item">
+          <img
+            src="/gallery/gallery-12.jpg"
+            alt="Photo of beautifully
+          arranged food"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="logo" src="/logonew.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-instagram"
+                  role="img"
+                  aria-label="logo instagram"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-facebook"
+                  role="img"
+                  aria-label="logo facebook"
+                ></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon
+                  class="social-icon md hydrated"
+                  name="logo-twitter"
+                  role="img"
+                  aria-label="logo twitter"
+                ></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright © <span class="year">2022</span> by koralli, Inc. All
+            rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">Αγαμέμνονος & Κολοκοτρώνη 19, 176 75 Καλλιθέα</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">210 2102101</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@koralli.com"
+                >hello@koralli.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Koralli</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy &amp; terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
